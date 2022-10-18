@@ -9,7 +9,7 @@ async function main() {
 
   console.log(`Lock  deployed to ${dataStore.address}`);
 
-  let tx_ = await ethers.provider.getStorageAt(dataStore.address, 14)
+  let tx_ = await ethers.provider.getStorageAt(dataStore.address, 15)
   console.log(tx_)
 }
 
